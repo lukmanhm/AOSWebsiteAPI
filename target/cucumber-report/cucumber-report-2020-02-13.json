@@ -1,0 +1,1274 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "user-crud;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 654545600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "password is encrypted",
+            "match": {
+              "location": "MyStepdefs.passwordIsEncrypted()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2645079800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit post with name and password",
+            "match": {
+              "location": "MyStepdefs.iSubmitPostWithNameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 430457200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "response code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepdefs.responseCodeAs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      }
+    ],
+    "name": "User CRUD",
+    "description": "",
+    "id": "user-crud",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/1.User.feature",
+    "tags": [
+      {
+        "name": "@e2e",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Add Response Code - WEB",
+        "description": "",
+        "id": "manipulate-data-response-code-web;add-response-code---web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80537700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.inputDataRescodeWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43931500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "data success rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.dataSuccessRescodeWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Approve data",
+        "description": "",
+        "id": "manipulate-data-response-code-web;approve-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88215700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "approve data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.approveDataRescodeWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216286400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Success approve add rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.successApproveAddRescodeWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Edit data",
+        "description": "",
+        "id": "manipulate-data-response-code-web;edit-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Edit data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.editDataRescodeWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249644800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify rescode-WEB is from approve data",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.verifyRescodeWEBIsFromApproveData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42907900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "edit data rescode-WEB is success",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.editDataRescodeWEBIsSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "approve edit data",
+        "description": "",
+        "id": "manipulate-data-response-code-web;approve-edit-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99125300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Approve edit data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.approveEditDataRescodeWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114991900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Success approve edit data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.successApproveEditDataRescodeWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Delete data rescode-WEB",
+        "description": "",
+        "id": "manipulate-data-response-code-web;delete-data-rescode-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 187716600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "data rescode-WEB is exist",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.dataRescodeWEBIsExist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67707300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user delete data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.userDeleteDataRescodeWEB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44460900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "success delete data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.successDeleteDataRescodeWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Approve delete data",
+        "description": "",
+        "id": "manipulate-data-response-code-web;approve-delete-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129814500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Approve delete data rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.approveDeleteDataRescodeWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143887100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Success approve delete rescode-WEB",
+            "match": {
+              "location": "MyStepdefs_ResCode_WEB.successApproveDeleteRescodeWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      }
+    ],
+    "name": "Manipulate data Response Code Web",
+    "description": "",
+    "id": "manipulate-data-response-code-web",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/6.Response Code-WEB.feature",
+    "tags": [
+      {
+        "name": "@test4",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@end2end",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Add Property WEB",
+        "description": "",
+        "id": "manipulate-data-property-web;add-property-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123872800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.inputPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45987500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.dataPropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Approve data",
+        "description": "",
+        "id": "manipulate-data-property-web;approve-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92780000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "approve data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.approveDataPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 404838800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Success approve add Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.successApproveAddPropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Edit data",
+        "description": "",
+        "id": "manipulate-data-property-web;edit-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Edit data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.editDataPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55903600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify Property WEB is from approve data",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.verifyPropertyWEBIsFromApproveData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15724500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "edit data Property WEB is success",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.editDataPropertyWEBIsSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "approve edit data",
+        "description": "",
+        "id": "manipulate-data-property-web;approve-edit-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60837600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Approve edit data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.approveEditDataPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130428000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Success approve edit data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.successApproveEditDataPropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Edit status Property",
+        "description": "",
+        "id": "manipulate-data-property-web;edit-status-property",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123527500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Change status Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.changeStatusPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20948100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Success edit status Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.successEditStatusPropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Approve edit status",
+        "description": "",
+        "id": "manipulate-data-property-web;approve-edit-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208709200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Approve edit status Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.approveEditStatusPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 365212600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Success approve edit status Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.successApproveEditStatusPropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Delete data Property WEB",
+        "description": "",
+        "id": "manipulate-data-property-web;delete-data-property-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208782100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "data Property WEB is exist",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.dataPropertyWEBIsExist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113305500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user delete data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.userDeleteDataPropertyWEB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40441700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "success delete data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.successDeleteDataPropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Approve delete data",
+        "description": "",
+        "id": "manipulate-data-property-web;approve-delete-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122946300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Approve delete data Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.approveDeleteDataPropertyWEB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131456300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Success approve delete Property WEB",
+            "match": {
+              "location": "MyStepdefs_Property_WEB.successApproveDeletePropertyWEB()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test5"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      }
+    ],
+    "name": "Manipulate Data Property WEB",
+    "description": "",
+    "id": "manipulate-data-property-web",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/7.Property-WEB.feature",
+    "tags": [
+      {
+        "name": "@test5",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@end2end",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Add Customer",
+        "description": "",
+        "id": "manipulated-data-customer;add-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116197400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.inputDataCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19087300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "data Customer is success added",
+            "match": {
+              "location": "MyStepdefs_CUstomer.dataCustomerIsSuccessAdded()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Approve data",
+        "description": "",
+        "id": "manipulated-data-customer;approve-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111787100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "approve data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.approveDataCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17788900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Success approve add Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.successApproveAddCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Edit data",
+        "description": "",
+        "id": "manipulated-data-customer;edit-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 354200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Edit data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.editDataCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154448500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify Customer is from approve data",
+            "match": {
+              "location": "MyStepdefs_CUstomer.verifyCustomerIsFromApproveData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10298100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "edit Customer WEB is success",
+            "match": {
+              "location": "MyStepdefs_CUstomer.editCustomerWEBIsSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "approve edit data",
+        "description": "",
+        "id": "manipulated-data-customer;approve-edit-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88758400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Approve edit data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.approveEditDataCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12676900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Success approve edit data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.successApproveEditDataCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Edit status Customer",
+        "description": "",
+        "id": "manipulated-data-customer;edit-status-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142818500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Change status Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.changeStatusCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42189500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Success edit status Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.successEditStatusCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Approve edit status",
+        "description": "",
+        "id": "manipulated-data-customer;approve-edit-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118939000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Approve edit status Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.approveEditStatusCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4693500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Success approve edit status Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.successApproveEditStatusCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Delete data Customer",
+        "description": "",
+        "id": "manipulated-data-customer;delete-data-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80966000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "data Customer is exist",
+            "match": {
+              "location": "MyStepdefs_CUstomer.dataCustomerIsExist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118010800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user delete data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.userDeleteDataCustomer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22248100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "success delete data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.successDeleteDataCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Approve delete data",
+        "description": "",
+        "id": "manipulated-data-customer;approve-delete-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83243900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Approve delete data Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.approveDeleteDataCustomer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15893400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Success approve delete Customer",
+            "match": {
+              "location": "MyStepdefs_CUstomer.successApproveDeleteCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test6"
+          },
+          {
+            "name": "@end2end"
+          }
+        ]
+      }
+    ],
+    "name": "Manipulated Data Customer",
+    "description": "",
+    "id": "manipulated-data-customer",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/8.Customer.feature",
+    "tags": [
+      {
+        "name": "@test6",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@end2end",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Get Log API List",
+        "description": "",
+        "id": "a-description;get-log-api-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2046660400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Input param log api",
+            "match": {
+              "location": "MyStepdefs_log_api.inputParamLogApi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41906600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Success display data",
+            "match": {
+              "location": "MyStepdefs_log_api.successDisplayData()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end2end"
+          },
+          {
+            "name": "@test7"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Get Log API Detail",
+        "description": "",
+        "id": "a-description;get-log-api-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105318100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Input param log api detail",
+            "match": {
+              "location": "MyStepdefs_log_api.inputParamLogApiDetail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27644600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Success display data detail",
+            "match": {
+              "location": "MyStepdefs_log_api.successDisplayDataDetail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end2end"
+          },
+          {
+            "name": "@test7"
+          }
+        ]
+      }
+    ],
+    "name": "A description",
+    "description": "",
+    "id": "a-description",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/9.Log -API.feature",
+    "tags": [
+      {
+        "name": "@end2end",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@test7",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 10
+        }
+      }
+    ]
+  }
+]

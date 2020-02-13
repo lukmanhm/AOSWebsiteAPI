@@ -1,0 +1,117 @@
+{"dataRole":{
+    "title" : "Lukman add new role",
+    "description" : "test bikin role baru",
+    "requestedComment" : "test edit data",
+    "status": 1,
+    "parentId": 1,
+    "module": [
+        {
+            "name": "DASHBOARD",
+            "access": [
+                "DETAIL"
+            ]
+        },
+        {
+            "name": "USER",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "ROLE",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "CARD_HOLDER",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "TOKENIZATION",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "TRANSACTION_CODE",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "TRANSACTION",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "PROPERTY",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "RESPONSE_CODE",
+            "access": [
+                "LIST",
+                "DETAIL",
+                "ADD",
+                "EDIT",
+                "DELETE",
+                "APPROVAL"
+            ]
+        },
+        {
+            "name": "WEB_LOG",
+            "access": [
+                "LIST",
+                "DETAIL"
+            ]
+        },
+        {
+            "name": "API_LOG",
+            "access": [
+                "LIST",
+                "DETAIL"
+            ]
+        }
+    ]
+}}
