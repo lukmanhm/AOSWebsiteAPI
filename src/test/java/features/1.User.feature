@@ -2,7 +2,7 @@
 # Tags: optional
 @e2e
 Feature: User CRUD
-  @end2end
+  @end2end @test8
   Scenario: Login Scenario
     Given password is encrypted
     When I submit post with name and password

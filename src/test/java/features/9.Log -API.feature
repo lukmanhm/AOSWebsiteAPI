@@ -10,3 +10,6 @@ Feature: A description
   Scenario: Get Log API Detail
     Given Input param log api detail
     Then Success display data detail
+@test8
+  Scenario: Get Log API Detail
+    Given Input param log api detail1

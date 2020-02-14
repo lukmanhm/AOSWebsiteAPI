@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/java/features"},
-        tags = {"@e2e"},
+        tags = {"@test8"},
         glue = {"Steps"},
         plugin = { "pretty", "json:target/cucumber-report/cucumber-report.json" },
         monochrome = true

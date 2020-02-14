@@ -6,9 +6,7 @@ import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.junit.Assert;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -148,4 +146,48 @@ public class base extends dbConnection {
         }
 
     }
+
+    public void objectMenuJson() {
+
+        Menu menu = Res.as(Menu.class, ObjectMapperType.GSON);
+        List<String> menu1 = menu.getMenu();
+        Collections.sort(menu1);
+        for (String menu2 : menu1) {
+            System.out.println(menu2);
+        }
+
+            ArrayList<String> s = new ArrayList<String>();
+                s.add("Dashboard");
+                s.add("User Management");
+                s.add("User");
+                s.add("Role");
+                s.add("Card Holder Management");
+                s.add("Card Holder");
+                s.add("Card Holder");
+                s.add("Tokenization");
+                s.add("Transaction Management");
+                s.add("Transaction Code & Limit");
+                s.add("Transaction Customer");
+                s.add("Web Settings");
+                s.add("Properties");
+                s.add("Response Code");
+                s.add("Web Settings");
+                s.add("Properties");
+                s.add("Response Code");
+                s.add("Notification");
+                s.add("SMS Report");
+                s.add("Logs");
+                s.add("Web Logs");
+                s.add("API Logs");
+                s.add("Large Cardholder File");
+                s.add("Large Cardholder Environment");
+
+            Collections.sort(s);
+            List<String> aList = new ArrayList<String>(s);
+
+            for (String abc : aList) {
+                System.out.println(abc);
+            }
+            Assert.assertEquals(aList.toString(), menu1.toString());
+        }
 }
